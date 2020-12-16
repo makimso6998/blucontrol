@@ -1,0 +1,188 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 E:\Mplab\pic\LCD.X\LCD_PIC.c
+[v _LCD_PREDT LCD_PREDT `(v  1 e 1 0 ]
+"13
+[v _LCD_WriteIR LCD_WriteIR `(v  1 e 1 0 ]
+"28
+[v _LCD_WriteDT LCD_WriteDT `(v  1 e 1 0 ]
+"43
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"66
+[v _LCD_WriteString LCD_WriteString `(v  1 e 1 0 ]
+"37 E:\Mplab\pic\LCD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"94
+[v _Send_data Send_data `(v  1 e 1 0 ]
+"1059 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S54 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S63 . 1 `S54 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES63  1 e 1 @134 ]
+[s S75 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S84 . 1 `S75 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES84  1 e 1 @135 ]
+[s S33 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1516
+[u S42 . 1 `S33 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES42  1 e 1 @136 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2416
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2515
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2653
+[v _PSPMODE PSPMODE `VEb  1 e 0 @1100 ]
+"2677
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2680
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2686
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2689
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2743
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2755
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2767
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2770
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"2773
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2776
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2779
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2812
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2842
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2995
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"2998
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"3001
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"3004
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"3007
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"3010
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"3013
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"3031
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3037
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"31 E:\Mplab\pic\LCD.X\main.c
+[v _var var `[20]uc  1 e 20 0 ]
+"32
+[v _a a `uc  1 e 1 0 ]
+"36
+[v _array array `[20]uc  1 e 20 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+{
+"92
+} 0
+"94
+[v _Send_data Send_data `(v  1 e 1 0 ]
+{
+[v Send_data@data data `*.4uc  1 a 1 wreg ]
+[v Send_data@data data `*.4uc  1 a 1 wreg ]
+[v Send_data@data data `*.4uc  1 a 1 2 ]
+"104
+} 0
+"66 E:\Mplab\pic\LCD.X\LCD_PIC.c
+[v _LCD_WriteString LCD_WriteString `(v  1 e 1 0 ]
+{
+[v LCD_WriteString@data data `*.4uc  1 a 1 wreg ]
+[v LCD_WriteString@data data `*.4uc  1 a 1 wreg ]
+[v LCD_WriteString@data data `*.4uc  1 a 1 6 ]
+"74
+} 0
+"28
+[v _LCD_WriteDT LCD_WriteDT `(v  1 e 1 0 ]
+{
+[v LCD_WriteDT@data data `uc  1 a 1 wreg ]
+[v LCD_WriteDT@data data `uc  1 a 1 wreg ]
+"31
+[v LCD_WriteDT@data data `uc  1 a 1 4 ]
+"41
+} 0
+"43
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"64
+} 0
+"13
+[v _LCD_WriteIR LCD_WriteIR `(v  1 e 1 0 ]
+{
+[v LCD_WriteIR@data data `uc  1 a 1 wreg ]
+[v LCD_WriteIR@data data `uc  1 a 1 wreg ]
+"15
+[v LCD_WriteIR@data data `uc  1 a 1 4 ]
+"26
+} 0
+"5
+[v _LCD_PREDT LCD_PREDT `(v  1 e 1 0 ]
+{
+[v LCD_PREDT@data data `uc  1 a 1 wreg ]
+[v LCD_PREDT@data data `uc  1 a 1 wreg ]
+"7
+[v LCD_PREDT@data data `uc  1 a 1 1 ]
+"11
+} 0
